@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "grunt",
+    "build": "grunt build",
+    "build:dev": "grunt build:dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-bower-requirejs": "^2.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-svgmin": "^4.0.0",
+    "node-sass": "^4.1.1"
+  },
+  "name": "twentyseventeen-child",
+  "version": "1.0.0",
+  "author": "Ville Vaarala <ville.l.vaarala@gmail.com>",
+  "license": "MIT",
+  "description": ""
+}

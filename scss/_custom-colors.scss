@@ -1,0 +1,560 @@
+/**
+ * Twenty Seventeen: Dark Color Scheme
+ *
+ * See inc/color-patterns.php for dynamic color overrides for the theme.
+ *
+ * Colors are ordered from light to dark.
+ */
+
+button,
+input[type="button"],
+input[type="submit"],
+.entry-footer .edit-link a.post-edit-link {
+	background-color: $button-background;
+}
+
+a:hover,
+a:active,
+.entry-content a:focus,
+.entry-content a:hover,
+.entry-summary a:focus,
+.entry-summary a:hover,
+.widget a:focus,
+.widget a:hover,
+.site-footer .widget-area a:focus,
+.site-footer .widget-area a:hover,
+.posts-navigation a:focus,
+.posts-navigation a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:hover,
+.comment-metadata a.comment-edit-link:focus,
+.comment-metadata a.comment-edit-link:hover,
+.comment-reply-link:focus,
+.comment-reply-link:hover,
+.widget_authors a:focus strong,
+.widget_authors a:hover strong,
+.entry-title a:focus,
+.entry-title a:hover,
+.entry-meta a:focus,
+.entry-meta a:hover,
+.blog .entry-meta a.post-edit-link:focus,
+.blog .entry-meta a.post-edit-link:hover,
+.archive .entry-meta a.post-edit-link:focus,
+.archive .entry-meta a.post-edit-link:hover,
+.search .entry-meta a.post-edit-link:focus,
+.search .entry-meta a.post-edit-link:hover,
+.page-links a:focus .page-number,
+.page-links a:hover .page-number,
+.entry-footer .cat-links a:focus,
+.entry-footer .cat-links a:hover,
+.entry-footer .tags-links a:focus,
+.entry-footer .tags-links a:hover,
+.post-navigation a:focus,
+.post-navigation a:hover,
+.pagination a:not(.prev):not(.next):focus,
+.pagination a:not(.prev):not(.next):hover,
+.comments-pagination a:not(.prev):not(.next):focus,
+.comments-pagination a:not(.prev):not(.next):hover,
+.logged-in-as a:focus,
+.logged-in-as a:hover,
+a:focus .nav-title,
+a:hover .nav-title,
+.edit-link a:focus,
+.edit-link a:hover,
+.site-info a:focus,
+.site-info a:hover,
+.widget .widget-title a:focus,
+.widget .widget-title a:hover,
+.widget ul li a:focus,
+.widget ul li a:hover {
+	color: $link-hover;
+}
+
+.entry-content a:focus,
+.entry-content a:hover,
+.entry-summary a:focus,
+.entry-summary a:hover,
+.widget a:focus,
+.widget a:hover,
+.site-footer .widget-area a:focus,
+.site-footer .widget-area a:hover,
+.posts-navigation a:focus,
+.posts-navigation a:hover,
+.comment-metadata a:focus,
+.comment-metadata a:hover,
+.comment-metadata a.comment-edit-link:focus,
+.comment-metadata a.comment-edit-link:hover,
+.comment-reply-link:focus,
+.comment-reply-link:hover,
+.widget_authors a:focus strong,
+.widget_authors a:hover strong,
+.entry-title a:focus,
+.entry-title a:hover,
+.entry-meta a:focus,
+.entry-meta a:hover,
+.blog .entry-meta a.post-edit-link:focus,
+.blog .entry-meta a.post-edit-link:hover,
+.archive .entry-meta a.post-edit-link:focus,
+.archive .entry-meta a.post-edit-link:hover,
+.search .entry-meta a.post-edit-link:focus,
+.search .entry-meta a.post-edit-link:hover,
+.page-links a:focus .page-number,
+.page-links a:hover .page-number,
+.entry-footer .cat-links a:focus,
+.entry-footer .cat-links a:hover,
+.entry-footer .tags-links a:focus,
+.entry-footer .tags-links a:hover,
+.post-navigation a:focus,
+.post-navigation a:hover,
+.pagination a:not(.prev):not(.next):focus,
+.pagination a:not(.prev):not(.next):hover,
+.comments-pagination a:not(.prev):not(.next):focus,
+.comments-pagination a:not(.prev):not(.next):hover,
+.logged-in-as a:focus,
+.logged-in-as a:hover,
+a:focus .nav-title,
+a:hover .nav-title,
+.edit-link a:focus,
+.edit-link a:hover,
+.site-info a:focus,
+.site-info a:hover,
+.widget .widget-title a:focus,
+.widget .widget-title a:hover,
+.widget ul li a:focus,
+.widget ul li a:hover {
+	-webkit-box-shadow: inset 0 0 0 rgba($link-hover, 0), 0 3px 0 rgba($link-hover, 1); /* Equivalant to #fff */
+	box-shadow: inset 0 0 0 rgba($link-hover, 0), 0 3px 0 rgba($link-hover, 1); /* Equivalant to #fff */
+}
+
+.entry-content a,
+.entry-summary a,
+.widget a,
+.site-footer .widget-area a,
+.posts-navigation a,
+.widget_authors a strong {
+	-webkit-box-shadow: inset 0 -1px 0 rgba(240, 240, 240, 1); /* Equivalant to #f0f0f0 */
+	box-shadow: inset 0 -1px 0 rgba(240, 240, 240, 1); /* Equivalant to #f0f0f0 */
+}
+
+body,
+button,
+input,
+select,
+textarea,
+h3,
+h4,
+h6,
+label,
+.entry-title a,
+.twentyseventeen-front-page .panel-content .recent-posts article,
+.entry-footer .cat-links a,
+.entry-footer .tags-links a,
+.format-quote blockquote,
+.nav-title,
+.comment-body {
+	color: $text-color;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	color: $text-color-2nd;
+}
+
+:-moz-placeholder {
+	color: $text-color-2nd;
+}
+
+::-moz-placeholder {
+	color: $text-color-2nd;
+}
+
+:-ms-input-placeholder {
+	color: $text-color-2nd;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+	border-color: $text-color;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus,
+button.secondary,
+input[type="reset"],
+input[type="button"].secondary,
+input[type="reset"].secondary,
+input[type="submit"].secondary,
+a,
+.site-title,
+.site-title a,
+.navigation-top a,
+.dropdown-toggle,
+.menu-toggle,
+.page .panel-content .entry-title,
+.page-title,
+.page:not(.twentyseventeen-front-page) .entry-title,
+.page-links a .page-number,
+.comment-metadata a.comment-edit-link,
+.comment-reply-link .icon,
+h2.widget-title,
+mark,
+.post-navigation a:focus .icon,
+.post-navigation a:hover .icon,
+.blog .entry-meta a.post-edit-link,
+.archive .entry-meta a.post-edit-link,
+.search .entry-meta a.post-edit-link,
+.colors-custom .twentyseventeen-panel .recent-posts .entry-header .edit-link {
+	color: $text-color-2nd;
+}
+
+h2,
+blockquote,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+.navigation-top .current-menu-item > a,
+.navigation-top .current_page_item > a,
+.entry-content blockquote.alignleft,
+.entry-content blockquote.alignright,
+.taxonomy-description,
+.site-info a,
+.wp-caption {
+	color: $text-color-3rd;
+}
+
+abbr,
+acronym {
+	border-bottom-color: $text-color-3rd;
+}
+
+h5,
+.main-navigation a:hover,
+.entry-meta,
+.entry-meta a,
+.nav-subtitle,
+.comment-metadata,
+.comment-metadata a,
+.no-comments,
+.comment-awaiting-moderation,
+.page-numbers.current,
+.page-links .page-number,
+.site-description {
+	color: $text-color-4th;
+}
+
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.prev.page-numbers:focus,
+.prev.page-numbers:hover,
+.next.page-numbers:focus,
+.next.page-numbers:hover,
+.entry-footer .edit-link a.post-edit-link:focus,
+.entry-footer .edit-link a.post-edit-link:hover {
+	background: $button-hover-background;
+}
+
+.social-navigation a:hover,
+.social-navigation a:focus {
+	background: #999;
+	color: $social-hover-background;
+}
+
+.entry-footer .cat-links .icon,
+.entry-footer .tags-links .icon {
+	color: $icon-color;
+}
+
+button.secondary:hover,
+button.secondary:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="button"].secondary:hover,
+input[type="button"].secondary:focus,
+input[type="reset"].secondary:hover,
+input[type="reset"].secondary:focus,
+input[type="submit"].secondary:hover,
+input[type="submit"].secondary:focus,
+.social-navigation a,
+hr {
+	background: $button-hover-background-2nd;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+fieldset,
+.widget .tagcloud a:hover,
+.widget .tagcloud a:focus,
+.widget.widget_tag_cloud a:hover,
+.widget.widget_tag_cloud a:focus,
+.wp_widget_tag_cloud a:hover,
+.wp_widget_tag_cloud a:focus {
+	border-color: $border-color;
+}
+
+button.secondary,
+input[type="reset"],
+input[type="button"].secondary,
+input[type="reset"].secondary,
+input[type="submit"].secondary,
+.prev.page-numbers,
+.next.page-numbers {
+	background-color: $button-hover-background-2nd;
+}
+
+.widget .tagcloud a,
+.widget.widget_tag_cloud a,
+.wp_widget_tag_cloud a {
+	border-color: $widget-border-color;
+}
+
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child),
+.widget ul li {
+	border-top-color: $widget-border-color;
+}
+
+.widget ul li {
+	border-bottom-color: $widget-border-color;
+}
+
+pre,
+mark,
+ins,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select,
+fieldset {
+	background: $input-background;
+}
+
+tr,
+thead th {
+	border-color: $border-color;
+}
+
+.navigation-top,
+.main-navigation > div > ul,
+.pagination,
+.comment-navigation,
+.entry-footer,
+.site-footer {
+	border-top-color: $navigation-border-color;
+}
+
+.single-featured-image-header,
+.navigation-top,
+.main-navigation li,
+.entry-footer,
+#comments {
+	border-bottom-color: $navigation-border-color;
+}
+
+.site-header,
+.single-featured-image-header {
+	background-color: $header-background;
+}
+
+button,
+input[type="button"],
+input[type="submit"],
+.prev.page-numbers:focus,
+.prev.page-numbers:hover,
+.next.page-numbers:focus,
+.next.page-numbers:hover {
+	color: $button-color;
+}
+
+body,
+.site-content-contain,
+.navigation-top,
+.main-navigation ul {
+	background: $background;
+}
+
+.entry-title a,
+.entry-meta a,
+.blog .entry-meta a.post-edit-link,
+.archive .entry-meta a.post-edit-link,
+.search .entry-meta a.post-edit-link,
+.page-links a,
+.page-links a .page-number,
+.entry-footer a,
+.entry-footer .cat-links a,
+.entry-footer .tags-links a,
+.edit-link a,
+.post-navigation a,
+.logged-in-as a,
+.comment-navigation a,
+.comment-metadata a,
+.comment-metadata a.comment-edit-link,
+.comment-reply-link,
+a .nav-title,
+.pagination a,
+.comments-pagination a,
+.widget .widget-title a,
+.widget ul li a,
+.site-footer .widget-area ul li a,
+.site-info a {
+	-webkit-box-shadow: inset 0 -1px 0 rgba($background, 1); /* Equivalant to #222 */
+	box-shadow: inset 0 -1px 0 rgba($background, 1); /* Equivalant to #222 */
+}
+
+/* Fixes linked images */
+.entry-content a img,
+.widget a img {
+	-webkit-box-shadow: 0 0 0 8px $background;
+	box-shadow: 0 0 0 8px $background;
+}
+
+.entry-footer .edit-link a.post-edit-link {
+	color: $edit-link-color;
+}
+
+.menu-toggle,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.dropdown-toggle,
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.menu-scroll-down,
+.menu-scroll-down:hover,
+.menu-scroll-down:focus {
+	background-color: $menu-toggle-background;
+}
+
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus,
+.widget .tagcloud a,
+.widget .tagcloud a:focus,
+.widget .tagcloud a:hover,
+.widget.widget_tag_cloud a,
+.widget.widget_tag_cloud a:focus,
+.widget.widget_tag_cloud a:hover,
+.wp_widget_tag_cloud a,
+.wp_widget_tag_cloud a:focus,
+.wp_widget_tag_cloud a:hover,
+.entry-footer .edit-link a.post-edit-link:focus,
+.entry-footer .edit-link a.post-edit-link:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+@media screen and (min-width: 48em) {
+
+	.nav-links .nav-previous .nav-title .icon,
+	.nav-links .nav-next .nav-title .icon {
+		color: $navigation-next-prev;
+	}
+
+	.main-navigation li li:hover,
+	.main-navigation li li.focus {
+		background: $main-navigation-hover-color;
+	}
+
+	.menu-scroll-down {
+		color: $main-navigation-hover-color;
+	}
+
+	.main-navigation ul ul {
+		border-color: $navigation-border-color;
+		background: $background;
+	}
+
+	.main-navigation ul li.menu-item-has-children:before,
+	.main-navigation ul li.page_item_has_children:before {
+		border-bottom-color: $navigation-border-color;
+	}
+
+	.main-navigation ul li.menu-item-has-children:after,
+	.main-navigation ul li.page_item_has_children:after {
+		border-bottom-color: $background;
+	}
+
+	.main-navigation li li.focus > a,
+	.main-navigation li li:focus > a,
+	.main-navigation li li:hover > a,
+	.main-navigation li li a:hover,
+	.main-navigation li li a:focus,
+	.main-navigation li li.current_page_item a:hover,
+	.main-navigation li li.current-menu-item a:hover,
+	.main-navigation li li.current_page_item a:focus,
+	.main-navigation li li.current-menu-item a:focus {
+		color: $button-color;
+	}
+
+}
