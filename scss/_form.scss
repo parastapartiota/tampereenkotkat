@@ -1,0 +1,56 @@
+input::placeholder, textarea::placeholder {
+  font-weight: 200;
+  font-size: 0.9em;
+}
+
+/**
+ * textarea
+ */
+textarea {
+  display: block;
+}
+
+/**
+ * radio buttons & checkboxes
+ */
+// TODO
+// input[type=radio], input[type=checkbox] {
+//   display: none;
+// }
+//
+// label.radio {
+//
+//   &:after {
+//     display: inline-block;
+//     content: '';
+//     width: 16px;
+//     height: 16px;
+//     border: 1px solid $secondary-text;
+//     border-radius: 100px;
+//     // margin-left: $gutter/8;
+//     // margin-right: $gutter/8;
+//     margin-bottom: -$gutter/12;
+//     margin-left: 10px;
+//     border-radius: 8px;
+//     box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+//   }
+//
+//   input:checked + & {
+//     &:after {
+//       color: $effect-text;
+//       border-color: $effect-text;
+//       content: '\2022';
+//       font-size: 30px;
+//       line-height: 16px;
+//       margin-bottom: -$gutter/10;
+//     }
+//   }
+//
+//   & + input[type=radio] {
+//     margin-left: $gutter;
+//   }
+// }
+//
+// label.checkbox {
+//
+// }

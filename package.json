@@ -23,5 +23,8 @@
   "version": "1.0.0",
   "author": "Ville Vaarala <ville.l.vaarala@gmail.com>",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "normalize.css": "^5.0.0"
+  }
 }

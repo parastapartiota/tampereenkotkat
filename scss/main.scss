@@ -1,3 +1,8 @@
-@import "variables";
-@import "custom-colors";
-@import "common";
+@import '../../node_modules/normalize.css/normalize.css';
+
+@import 'variables';
+@import 'common';
+@import 'footer';
+@import 'buttons';
+@import 'form';
+@import 'header';

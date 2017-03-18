@@ -1,0 +1,10 @@
+footer {
+  background: $secondary-background;
+  padding: $gutter 2*$gutter;
+  color: $light-text;
+  font-size: 0.9em;
+
+  a {
+    color: $effect-text;
+  }
+}

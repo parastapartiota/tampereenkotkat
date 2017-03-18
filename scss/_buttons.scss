@@ -1,0 +1,48 @@
+@mixin button-hover-states($bg-color, $use-darken: true) {
+  background: $bg-color;
+    &:hover {
+      background: if($use-darken, darken($bg-color, 5), lighten($bg-color, 5))
+    }
+
+    &:active {
+      background: if($use-darken, darken($bg-color, 15), lighten($bg-color, 15))
+    }
+}
+
+button, a.btn {
+  @extend a;
+  @include button-hover-states($primary-background);
+  border: 1px solid $secondary-text;
+  padding: $gutter/4;
+  margin: $gutter/8;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &.btn-primary {
+    color: $light-text;
+    border: 0;
+    @include button-hover-states($effect-text);
+  }
+
+  &.btn-secondary {
+    @extend button.btn-primary;
+    @include button-hover-states($secondary-background, false);
+  }
+
+  &.btn-outline {
+    color: $effect-text;
+    border-color: $effect-text;
+  }
+
+  &.btn-lg {
+    padding: $gutter/3;
+  }
+
+  &.btn-sm {
+    padding: $gutter/10;
+    font-size: 0.9em;
+  }
+}

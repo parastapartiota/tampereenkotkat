@@ -1,8 +1,21 @@
-* {
-  font-family: 'Calibri', sans-serif;
+body {
+  background: $primary-background;
+  color: $primary-text;
+  font: $primary-font;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', 'Helvetica', 'Arial', sans-serif;
-	letter-spacing: 0px;
+a {
+  $link-color: $secondary-text;
+  color: $link-color;
+  font: $secondary-font;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($link-color, 30);
+  }
+
+  &:active {
+    position: relative;
+    top: -1px;
+  }
 }

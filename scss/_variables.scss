@@ -1,27 +1,38 @@
 /**
- * CUSTOM COLORS
+ * TYPOGRAPHY
+ */
+$primary-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$primary-font: 200 1.1em $primary-font-family;
+$secondary-font: 400 100% $primary-font-family;
+
+/**
+ * COLORS
  */
 
-$background: #222;
-$button-color: #222;
-$button-background: #fff;
-$button-background-2nd: #444;
-$button-hover-background-2nd: #555;
-$border-color: #555;
-$widget-border-color: #444;
-$button-hover-background: #bbb;
-$social-hover-background: #222;
-$icon-color: #666;
-$link-color: #ddd;
-$link-hover: #fff;
-$text-color: #eee;
-$text-color-2nd: #ddd;
-$text-color-3rd: #ccc;
-$text-color-4th: #bbb;
-$input-background: #333;
-$navigation-border-color: #333;
-$navigation-next-prev: #eee;
-$main-navigation-hover-color: #999;
-$header-background: #262626;
-$edit-link-color: #000;
-$menu-toggle-background: transparent;
+// TEXT
+$primary-text: #000;
+$secondary-text: #4e4e4e;
+$light-text: #fefefe;
+$header-text: $secondary-text;
+$effect-text: #cc232a;
+
+// BACKGROUNDS
+$primary-background: #fefefe;
+$secondary-background: #292929;
+$header-background: #fed332;
+
+
+
+
+/**
+ * MEASURES
+ */
+$gutter: 2em;
+
+/**
+ * BREAKPOINTS
+ */
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;

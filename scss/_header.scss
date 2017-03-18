@@ -1,0 +1,22 @@
+/*.site-branding {
+  background: $secondary-background;
+}*/
+
+div.navigation-top {
+  background: $header-background;
+  border-color: $header-background;
+  .main-navigation > div > ul {
+    border-color: $secondary-background;
+    background: $header-background;
+
+    & > li {
+      border-color: darken($header-background, 30);
+      &:not(:last-of-type) {
+        padding-bottom: $gutter/4;
+      }
+      &:not(:first-of-type) {
+        padding-top: $gutter/4;
+      }
+    }
+  }
+}
